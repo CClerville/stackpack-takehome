@@ -1,0 +1,27 @@
+.container {
+    padding: 10px 0 10px 0;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.keysContainer {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.key {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 1em;
+    background-color: rgb(52, 52, 52);
+    border-radius: 4px;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.5;
+    }
+}

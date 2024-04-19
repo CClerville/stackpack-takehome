@@ -1,9 +1,16 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  padding: 3rem;
   min-height: 100vh;
+  gap: 5px;
 }
+
+.playAgainButton {
+  padding: 10px;
+  cursor: pointer;
+  background-color: red;
+}
+
 

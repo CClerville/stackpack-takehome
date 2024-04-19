@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 5px;
+}
+
+.wordRow {
+    display: flex;
+    gap: 10px;
+  }

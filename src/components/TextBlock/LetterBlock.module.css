@@ -1,0 +1,25 @@
+.container {
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    background-color: black;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+
+    &[data-status="position_success"] {
+        background-color: green;
+    }
+    
+    &[data-status="position_wrong"] {
+        background-color: orange;
+    }
+    
+    &[data-status="position_not_exist"] {
+        background-color: grey
+    }
+}
